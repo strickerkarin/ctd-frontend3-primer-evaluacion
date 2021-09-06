@@ -3,6 +3,21 @@
   box-sizing: border-box;
   background-color: black;
 }
+
+.App{
+  background-image: url('./images/bosque.jpg');
+  background-size: cover;
+}
+
+.titulo{
+  color:greenyellow;
+  font-size:40px;
+  font-family: "Hina Mincho", serif;
+  padding-bottom: 30px;
+  text-shadow:1px 1px 3px grey;
+  
+}
+
 .layout {
   height: 100vh;
   max-width: 500px;
