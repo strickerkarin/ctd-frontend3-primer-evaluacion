@@ -1,7 +1,7 @@
-import data from "./components/data.json";
+import data from "./data.json";
 import { Component } from "react";
-import Opciones from './components/Opciones'
-import Recordatorio from './components/Recordatorio'
+import Opciones from './Opciones'
+import Recordatorio from './Recordatorio'
 
 const historial = []
 
@@ -12,7 +12,7 @@ export default class App extends Component {
     objetoActual: {}
   }
 
-  componentWillMount = () => {
+  UNSAFE_componentWillMount = () => {
     this.setState({ pagina: 0, objetoActual: data[0] })
 
   }  

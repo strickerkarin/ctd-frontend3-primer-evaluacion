@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App.jsx";
+import "./styles/index.css";
+import App from "./components/App.jsx";
 
-window.onload = () => {
-  ReactDOM.render(
-    <App />,    
-    document.getElementById("root")
-  );
-}
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,      
+  document.getElementById("root")
+);
+
 

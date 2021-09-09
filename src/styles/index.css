@@ -5,7 +5,7 @@
 }
 
 .App{
-  background-image: url('./images/bosque.jpg');
+  background-image: url('../images/bosque.jpg');
   background-size: cover;
 }
 
